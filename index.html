@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            outline: 0px;
+        }
+
+        .navbar {
+            margin-top: 1px;
+            background-color: rgb(212, 23, 23);
+            border-radius: 25px;
+            height: 50px;
+        }
+
+        .navbar li {
+
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+            float: right;
+            font-size: large;
+
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: white;
+            float: right;
+
+
+        }
+
+        html {
+            background: url('https://nimittech.com/img/cover.gif') no-repeat center center/cover;
+            width: 100%;
+            height: 300px;
+        }
+
+        .search {
+            padding: 7px 25px;
+            float: right;
+            margin: 10px 15px;
+            border-radius: 10px;
+        }
+
+        .navbar input {
+            border: 1px solid black;
+            border-radius: 7px;
+            height: 21px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href=""><b>Education</b> </a></li>
+                <li><a href=""><b>Experience</b> </a> </li>
+                <li><a href=""><b>Skills</b> </a> </li>
+                <li><a href=""><b>Personal Info</b> </a> </li>
+                <li><a href=""><b>Training</b> </a> </li>
+                <div class="search"><input type="text" id="text" placeholder="search anything"> </div>
+            </ul>
+        </nav>
+    </header>
+    <div>
+    <h2><b>My Technical skills</b></h2>
+</div>
+</body>
+
+</html>
